@@ -1,0 +1,65 @@
+Automated Job Application Filler Project
+
+Project Overview
+
+You're looking to create a tool (Chrome extension and/or macOS application) that automatically fills job application forms using information from your CV/resume and other pre-fed data, potentially enhanced with AI capabilities.
+Key Technologies Needed
+Core Technologies
+
+    Frontend Options:
+
+        Chrome Extension: HTML, CSS, JavaScript + Chrome APIs
+
+        macOS Native App: Swift/SwiftUI or Electron (for cross-platform)
+
+    Backend/Processing:
+
+        PDF parsing (for CV extraction): PyPDF2, pdf.js, or Apache Tika
+
+        Form detection & filling: Puppeteer (for web), AppleScript (for macOS apps)
+
+    Data Storage:
+
+        Local storage (Chrome Storage API, SQLite)
+
+        Optional cloud sync (Firebase, AWS S3)
+
+AI Integration Options
+
+    Natural Language Processing:
+
+        OpenAI API, Anthropic, or local models (LLaMA, Mistral)
+
+        For understanding job descriptions and tailoring responses
+
+    Computer Vision:
+
+        Tesseract OCR (for non-text fields in applications)
+
+        OpenCV (for form field detection)
+
+    Matching Algorithms:
+
+        Semantic similarity (Sentence Transformers, spaCy)
+
+        Keyword extraction (RAKE, YAKE)
+
+Additional Useful Technologies
+
+    Browser Automation: Playwright, Selenium
+
+    Resume Parsing: Affinda API, Sovren, or custom NLP solution
+
+    Template Matching: For recognizing common application forms
+
+    Job Platform APIs: LinkedIn API, Greenhouse, Lever (where available)
+
+Implementation Considerations
+
+    Security: Secure storage for personal data
+
+    Customization: Allow user to edit field mappings
+
+    Adaptability: Handle different form structures
+
+    User Experience: Easy profile setup and management
